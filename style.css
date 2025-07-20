@@ -94,11 +94,20 @@ a {
     margin-bottom: 2px;
 }
 
-.section__description--para {
+.section__description--sub-title {
     color:#0fbe7e;
     font-weight: 800;
     font-size: 32px;
 }
+
+.section__description--para {
+    max-width:990px;
+    text-align: center;
+    font-size: 16px;
+    margin: 40px 0;
+    font-weight: 500;
+}
+
 
 /* FOOTER */
 

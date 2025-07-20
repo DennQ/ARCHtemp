@@ -23,6 +23,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+}
+
+.work__title {
+    margin-left: 80px;
+    margin-right: 40px;
+    width: 25%;
 }
 
 .work__services--title {
@@ -31,7 +38,12 @@
     line-height: 72px;
 }
 
+.work__bar {
+    width: 100%;
+}
+
 .work__services--bar  {
+    width: 100%;
     height: 6px;
     background-color: #232323;
 }
@@ -61,6 +73,7 @@
 
 .work__item--title  {
     font-size: 40px;
+    font-weight: 700;
     color: #f3f3f3;
     display: flex;
     text-align: center;
